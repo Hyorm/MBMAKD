@@ -15,7 +15,7 @@ the processed data sets made a result of precision of 0.976 and recall of 0.621.
 프로그램 순서도는 다음 <그림 1>과 같다.<br>
 (1) ‘Amazon fine food Reviews’ data가 들어있는 Reviews.csv 파일을 데이터 변환 프로그램인 Data_Parser에 넣는다.<br>
 (2) Data_Parser를 통해 Reviews.csv파일을 trainig.csv과 testing.csv로 변환한다.<br>
-(3) 변한된 파일과 market-basket모델링 프로그램인 Recommender(Recommender는 입력 받은 데이터를 Market-basket 모델을 활용하여 분석한다. 또한, config.property파일을 입력받아 outlier와 threshold 처리에 필요한 값들을 얻는다. Recommender는 다음 4가지 단계를 거치며 결과를 도출해 낸다.)를 통해 결론을 도출한다.<br>
+(3) 변된 파일과 market-basket모델링 프로그램인 Recommender(Recommender는 입력 받은 데이터를 Market-basket 모델을 활용하여 분석한다. 또한, config.property파일을 입력받아 outlier와 threshold 처리에 필요한 값들을 얻는다. Recommender는 다음 4가지 단계를 거치며 결과를 도출해 낸다.)를 통해 결론을 도출한다.<br>
 <p align="center"><img width="700" alt="image" src="https://user-images.githubusercontent.com/28642467/104879013-59bb0400-59a0-11eb-8adb-29385d66b946.png"></p>
 <p align="center">그림 1. Program Flow</p>
 
